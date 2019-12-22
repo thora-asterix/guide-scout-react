@@ -1,0 +1,231 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap');
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+#header {
+  min-height: 500px;
+  background-image: url(./img/traveling.jpg);
+  background-position: top;
+  background-attachment: fixed;
+  position: relative;
+}
+
+#header h1 {
+  font-weight: 300;
+  font-size: 2.5rem;
+  color: #f6f1ea;
+}
+
+#header button {
+  color: #CC3300;
+}
+
+#main-nav {
+  background-color: #da500e;
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: white;
+}
+
+#main-nav .navbar-brand {
+  color: white;
+}
+
+#main-nav a {
+  color: white;
+}
+
+.color-cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(153, 0, 0, 0.4);
+}
+
+#guides-panel {
+  background-color: white;
+}
+
+#guides-panel h2 {
+  font-size: 2rem;
+}
+
+#local-guides .carousel-caption a:link,
+#local-guides .carousel-caption a:active {
+  font-size: 2rem;
+  color: white;
+}
+
+#local-guides .carousel-caption a:hover,
+#local-guides .carousel-caption a:active {
+  font-size: 3rem;
+  color: #FF9900;
+}
+
+#categories div:hover {
+  background: rgba(212, 205, 17, 0.7);
+}
+
+#culture-categ,
+#adventure-categ,
+#sports-categ,
+#food-categ {
+  position: relative;
+}
+
+#culture-categ .over-cover,
+#adventure-categ .over-cover,
+#sports-categ .over-cover,
+#food-categ .over-cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#culture-categ a,
+#adventure-categ a,
+#sports-categ a,
+#food-categ a {
+  text-decoration: none;
+}
+
+#page-footer {
+  background-color: #FF9900;
+}
+
+#page-footer-copyright,
+#contact-info {
+  color: #695a60;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+#contact-info {
+  background-color: #f6f1ea;
+}
+
+#client-form {
+  background-color: rgba(246, 246, 246, 0.5);
+  border-radius: 25px;
+  padding: 2rem;
+}
+
+#client-form label {
+  color: #695a60;
+  font-weight: 700;
+}
+
+.card-body {
+  position: relative;
+}
+.jumbotron {
+  background-color: white;
+}
+.bg-white {
+  background-color: white !important;
+}
+.white-jumbo {
+  background-color: #fff !important;
+  color: #336633;
+}
+
+.grey-jumbo {
+  background-color: rgba(211, 211, 211, 0.4) !important;
+  color: #FF9900;
+}
+
+.green-jumbo {
+  background-color: darkkhaki !important;
+  color: #FFFFCC;
+}
+
+.light-grey-jumbo {
+  background-color: rgba(246, 246, 246, 0.5) !important;
+  color: #FF9900;
+}
+
+.small-image {
+  position: absolute;
+  top: -130px;
+  left: 50%;
+  padding: 5px;
+  border: 5px solid orange;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.fab {
+  font-size: 4rem;
+  color: #695a60;
+}
+
+.fas {
+  font-size: 1.5rem;
+  margin-right: .3rem;
+}
+
+.far {
+  font-size: 1.5rem;
+  margin-right: .3rem;
+}
+/*# sourceMappingURL=style.css.map */
+@media only screen and (min-width: 576px) {
+  #header {
+    min-height: 500px;
+    background-image: url(./img/traveling.jpg);
+    background-position: top;
+    background-attachment: fixed;
+    position: relative;
+  }
+  #header h1 {
+    font-weight: 300;
+    font-size: 3rem;
+    color: #f6f1ea;
+  }
+  #header button {
+    color: #CC3300;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  #header {
+    min-height: 500px;
+    background-image: url(./img/traveling.jpg);
+    background-position: top;
+    background-attachment: fixed;
+    position: relative;
+  }
+  #header h1 {
+    font-weight: 300;
+    font-size: 4rem;
+    color: #f6f1ea;
+  }
+  #header button {
+    color: #CC3300;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  #header {
+    min-height: 500px;
+    background-image: url(./img/traveling.jpg);
+    background-position: top;
+    background-attachment: fixed;
+    position: relative;
+  }
+  #header h1 {
+    font-weight: 300;
+    font-size: 5rem;
+    color: #f6f1ea;
+  }
+  #header button {
+    color: #CC3300;
+  }
+}
